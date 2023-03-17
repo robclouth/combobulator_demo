@@ -1,0 +1,4 @@
+[submodule "JUCE"]
+	path = JUCE
+	url = https://github.com/robclouth/JUCE.git
+	branch = master

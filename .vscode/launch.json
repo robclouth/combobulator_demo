@@ -1,0 +1,28 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "msedge",
+      "request": "launch",
+      "name": "Launch WebView",
+      "runtimeExecutable": "${workspaceRoot}/dist/Standalone/Combobulator.exe",
+      "env": {
+        // Customize for your app location if needed
+        "Path": "%path%;C:/Users/Rob/Documents/Projects/Music/Tools/Combobulator/dist/Standalone/Combobulator.exe; "
+      },
+      "url": "file:///${workspaceFolder}/js/public/index.html",
+      "webRoot": "${workspaceFolder}/js/public",
+      "useWebView": true
+    },
+    {
+      "name": "C++ Launch (Windows)",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/dist/Standalone/Combobulator.exe",
+      "externalConsole": true,
+    }
+  ]
+}
